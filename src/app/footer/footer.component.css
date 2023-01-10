@@ -1,0 +1,90 @@
+.footer {
+  margin-top: 50px;
+  background-color: black;
+}
+.container {
+  width: 75%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-bottom: 50px;
+  padding-top: 40px;
+}
+.essentials li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.essentials a {
+  text-decoration: none;
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+.questions li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.questions a {
+  text-decoration: none;
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+.description {
+  width: 80%;
+}
+.description img {
+  margin-top: 20px;
+}
+.description p {
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+.essentials {
+  width: 80%;
+}
+.questions {
+  width: 80%;
+}
+.contact {
+  width: 90%;
+}
+.bi-facebook {
+  color: white;
+}
+.bi-instagram {
+  margin-left: 10px;
+  color: white;
+}
+.bi-linkedin {
+  margin-left: 10px;
+  color: white;
+}
+.bi-bootstrap-fill {
+  margin-left: 10px;
+  color: white;
+}
+hr {
+  width: 75%;
+  size: 3;
+  border-style: solid;
+  border-color: #e81a41;
+}
+#copyright {
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  color: white;
+}
+
+.contact li {
+  color: white;
+  list-style: none;
+  line-height: 1.7;
+  font-family: "Raleway", sans-serif;
+}
+h1 {
+  color: white;
+  margin-bottom: 24px;
+  font-size: 22px;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+}

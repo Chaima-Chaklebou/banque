@@ -1,0 +1,96 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.form {
+  width: 70%;
+  height: 80vh;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.image img {
+  width: 80%;
+  height: 80vh;
+  display: grid;
+  margin: 0 auto;
+  justify-items: center;
+  align-items: center;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+button {
+  background-color: #e81a41;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: rgb(245, 244, 244);
+  color: black;
+}
+
+.cancelbtn,
+.signupbtn {
+  float: left;
+  width: 50%;
+}
+.alhaveacc {
+  margin-top: 30px;
+  text-align: center;
+}
+.alhaveacc a {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  padding: 16px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btnlog {
+  text-align: center;
+  margin: 10px;
+}

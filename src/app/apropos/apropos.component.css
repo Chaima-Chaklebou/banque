@@ -1,0 +1,84 @@
+#title {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 2em;
+}
+.apropos {
+  width: 100%;
+}
+.up {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15%;
+}
+.right {
+  width: 90%;
+}
+.left {
+  width: 80%;
+  padding-left: 25%;
+  padding-top: 15%;
+  margin: 0 auto;
+  justify-items: center;
+  align-items: center;
+}
+.left p {
+  font-size: larger;
+}
+.left span {
+  font-family: Arial, Helvetica, serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.down {
+  padding-top: 40px;
+  padding-left: 20ch;
+}
+.down p {
+  font-size: larger;
+}
+.down span {
+  font-family: Arial, Helvetica, serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.button-87 {
+  margin: 10px;
+  padding: 15px 25px;
+  text-align: center;
+  /*text-transform: uppercase;*/
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  display: block;
+  border: 0px;
+  font-weight: 700;
+  background-color: black;
+  /* box-shadow: 0px 0px 14px -7px #e81a41;
+  background-image: linear-gradient(
+    45deg,
+    rgb(34, 32, 32) 0%,
+    #e81a41 51%,
+    rgb(34, 32, 32) 100%
+  );*/
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  border-radius: 10px;
+}
+.button-87:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.button-87:active {
+  transform: scale(0.95);
+}
+.buttons {
+  display: flex;
+  padding-top: 20px;
+  padding-left: 30ch;
+}

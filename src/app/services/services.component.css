@@ -1,0 +1,121 @@
+.services {
+  width: 80%;
+  margin: 0 auto;
+}
+.introduction h1 {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  font-size: 2em;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.introduction p {
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: larger;
+}
+.section-background {
+  background-color: rgb(245, 244, 244);
+}
+.boxes {
+  display: grid;
+}
+.box-up {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+}
+.box-down {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+  margin-bottom: 50px;
+}
+.box-1 {
+  margin: 0 auto;
+  background-color: white;
+  width: 75%;
+  padding: 15px;
+  border-radius: 2%;
+  transition: 0.9s;
+}
+.box-1:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  background-color: #ddb0b8;
+  text-decoration: none;
+}
+
+.box-2 {
+  margin: 0 auto;
+  background-color: white;
+  width: 75%;
+  padding: 15px;
+  border-radius: 2%;
+  transition: 0.9s;
+}
+.box-2:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  background-color: #ddb0b8;
+  text-decoration: none;
+}
+.box-3 {
+  margin: 0 auto;
+  background-color: white;
+  width: 75%;
+  padding: 15px;
+  border-radius: 2%;
+  transition: 0.9s;
+}
+.box-3:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  background-color: #ddb0b8;
+  text-decoration: none;
+}
+.box-4 {
+  margin: 0 auto;
+  background-color: white;
+  width: 75%;
+  padding: 15px;
+  margin-top: 30px;
+  border-radius: 2%;
+  transition: 0.9s;
+}
+.box-4:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  background-color: #ddb0b8;
+  text-decoration: none;
+}
+.box-5 {
+  margin: 0 auto;
+  background-color: white;
+  width: 75%;
+  padding: 15px;
+  margin-top: 30px;
+  border-radius: 2%;
+  transition: 0.9s;
+}
+.box-5:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  background-color: #ddb0b8;
+  text-decoration: none;
+}
+.box-6 {
+  margin: 0 auto;
+  background-color: white;
+  width: 75%;
+  padding: 15px;
+  margin-top: 30px;
+  border-radius: 2%;
+  transition: 0.9s;
+}
+.box-6:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  background-color: #ddb0b8;
+  text-decoration: none;
+}

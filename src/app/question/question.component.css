@@ -1,0 +1,23 @@
+.questrep {
+  margin-top: 40px;
+  background-color: rgb(245, 244, 244);
+  padding: 20px;
+  overflow: hidden;
+  /*background: #c04848;*/
+
+  background: linear-gradient(to bottom, #e5adad, rgb(245, 244, 244));
+}
+.quest h1 {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+}
+.rep {
+  padding-left: 18ch;
+  padding-top: 5px;
+}
+.rep span {
+  padding-left: 5px;
+  font-size: large;
+  font-family: "AvenirNext";
+  color: #262e2e;
+}
